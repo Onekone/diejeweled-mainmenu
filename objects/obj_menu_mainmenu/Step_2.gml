@@ -10,7 +10,7 @@ switch (action) {
 			for(var i=0;i<buttonCount;i++) {instance_activate_object(buttons[i])}
 		}
 		active = false;
-		buttonTarget = 0;
+		buttonTarget = -buttonValue
 		break; 
 }
 

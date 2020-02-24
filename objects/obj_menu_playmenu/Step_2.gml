@@ -10,7 +10,7 @@ if active {
 	switch (action) {
 		case 0: 
 			active = false;
-			buttonTarget = 0;
+			buttonTarget = -buttonValue;
 			with obj_menu_offlinemenu {
 				active = true;
 				buttonTarget = buttonValue;
@@ -19,7 +19,7 @@ if active {
 			break;
 		case 1:
 			active = false;
-			buttonTarget = 0;
+			buttonTarget = -buttonValue;
 			with obj_menu_onlinemenu {
 				active = true;
 				buttonTarget = buttonValue;
@@ -28,7 +28,7 @@ if active {
 			break;
 		case 2:
 			active = false;
-			buttonTarget = 0;
+			buttonTarget = -buttonValue;
 			with obj_menu_mainmenu {
 				active = true;
 				buttonTarget = buttonValue;

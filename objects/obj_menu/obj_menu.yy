@@ -123,20 +123,6 @@
             "varType": 0
         },
         {
-            "id": "333d5325-4c48-40f4-942f-78ca3581150a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "buttonTarget",
-            "varType": 0
-        },
-        {
             "id": "3f9f339b-fe9f-4a88-b36a-41cfb56f9e2d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -148,6 +134,62 @@
             "resourceFilter": 1023,
             "value": "1.34",
             "varName": "buttonValue",
+            "varType": 0
+        },
+        {
+            "id": "333d5325-4c48-40f4-942f-78ca3581150a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-buttonValue",
+            "varName": "buttonTarget",
+            "varType": 0
+        },
+        {
+            "id": "3dad2f88-536b-447e-adf0-57a20f9d86ca",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hoverShift",
+            "varType": 0
+        },
+        {
+            "id": "70d4e5bb-846a-4c7d-820b-8d48b6c26ae0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hoverTarget",
+            "varType": 0
+        },
+        {
+            "id": "636fe82c-bca1-49bd-94bc-53e8fa1e81d2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "hover",
             "varType": 0
         }
     ],

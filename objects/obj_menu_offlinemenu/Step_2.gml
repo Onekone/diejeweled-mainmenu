@@ -9,9 +9,18 @@ if active
 switch (action) {
 	case 0: 
 		break; 
+	case 7:
+		active = false;
+		buttonTarget = -buttonValue;
+		with obj_menu_blitzmenu {
+			active = true;
+			buttonTarget = buttonValue;
+			for(var i=0;i<buttonCount;i++) {instance_activate_object(buttons[i])}
+			}
+		break;
 	case 11:
 		active = false;
-		buttonTarget = 0;
+		buttonTarget = -buttonValue;
 		with obj_menu_playmenu {
 			active = true;
 			buttonTarget = buttonValue;

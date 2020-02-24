@@ -1,5 +1,5 @@
 /// @description Create main menu
-show_debug_overlay(1)
+
 var buttonLayer = layer_get_id(buttonLayerName);
 layer_set_visible(buttonLayer,false)
 for(i=0;i<buttonCount;i++) {

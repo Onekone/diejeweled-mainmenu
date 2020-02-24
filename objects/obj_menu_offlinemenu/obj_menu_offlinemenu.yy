@@ -42,14 +42,6 @@
             "value": "False"
         },
         {
-            "id": "c3dc2ff1-6771-4786-a3a5-5ad6c69f9dd0",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "51fc92dc-ed25-4916-a799-4417b92282c6",
-            "propertyId": "333d5325-4c48-40f4-942f-78ca3581150a",
-            "value": "0"
-        },
-        {
             "id": "9eaf4e12-f0ee-4536-80fd-e6035cc69659",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
